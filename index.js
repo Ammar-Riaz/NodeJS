@@ -16,6 +16,9 @@ app.get("/signup", (req, res) => {
 app.get("/user", (req, res) => {
   res.send("Logged in user");
 });
+app.get("/role", (req, res) => {
+  res.send("Logged in user Role");
+});
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
